@@ -4,7 +4,9 @@ variable "aws_ami" {
   default = "ami-083ebc5a49573896a"
 }
 
-variable "ebc_device_name" {}
+variable "ebc_device_name" {
+  default = "test_device"
+}
 
 #variable "key_name" {
 #  description = "SSH key name in your AWS account for AWS instances."
