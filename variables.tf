@@ -4,7 +4,7 @@ variable "aws_ami" {
   default = "ami-083ebc5a49573896a"
 }
 
-variable "ebc_device_name" {
+variable "ebs_device_name" {
   default = "test_device"
 }
 
